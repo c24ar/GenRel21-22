@@ -37,6 +37,10 @@ repositories {
     }
 }
 
+android {
+    namespace = 'org.firstinspires.ftc.teamcode'
+}
+
 dependencies {
     doc 'org.firstinspires.ftc:Hardware:6.2.0'
     doc 'org.firstinspires.ftc:RobotCore:6.2.0'
